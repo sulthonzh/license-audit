@@ -1,0 +1,23 @@
+{
+  "name": "license-audit",
+  "version": "1.0.0",
+  "description": "Scan npm dependencies for license compliance. Detect risky licenses before they become legal problems.",
+  "main": "src/index.js",
+  "bin": {
+    "license-audit": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/run.js",
+    "lint": "node bin/cli.js --help"
+  },
+  "keywords": ["license", "audit", "compliance", "npm", "dependencies", "legal"],
+  "author": "sulthonzh",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/license-audit"
+  }
+}
